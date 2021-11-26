@@ -663,7 +663,112 @@ h3 {
   text-align: center;
 }
 
+.sub-subtopic-h3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -13px 100px -10px 0px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.following-pointers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -13px 100px -32px 0px;
+  font-family: Poppins, sans-serif;
+  color: #8d8a8a;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.grid-3 {
+  overflow: hidden;
+  grid-auto-flow: row;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(auto, 363px) auto;
+  grid-template-rows: minmax(auto, 363px) auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.image-9 {
+  overflow: visible;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.image-10 {
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.grid-3-copy {
+  overflow: hidden;
+  margin-bottom: 32px;
+  grid-auto-flow: row;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(auto, 363px) auto;
+  grid-template-rows: minmax(auto, 363px) auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.main-grid-copy {
+  overflow: hidden;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  grid-auto-flow: row;
+  grid-column-gap: 43px;
+  grid-row-gap: 43px;
+  -ms-grid-columns: minmax(354px, 1fr) 1fr 1fr;
+  grid-template-columns: minmax(354px, 1fr) 1fr 1fr;
+  -ms-grid-rows: minmax(460px, 0.25fr);
+  grid-template-rows: minmax(460px, 0.25fr);
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.grid-3-copy-copy {
+  overflow: hidden;
+  margin-bottom: 32px;
+  grid-auto-flow: row;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(auto, 363px) auto;
+  grid-template-rows: minmax(auto, 363px) auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 @media screen and (min-width: 1920px) {
+  .section {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
   .div-block-3 {
     border-width: 2px;
     border-color: #383838;
@@ -682,6 +787,7 @@ h3 {
   }
 
   .project-page-body-text {
+    margin-top: 25px;
     font-size: 15px;
   }
 
@@ -757,6 +863,59 @@ h3 {
 
   .thumbnail-titles {
     color: #fff;
+  }
+
+  .sub-subtopic-h3 {
+    margin-top: -15px;
+    padding-bottom: 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-indent: 0px;
+  }
+
+  .following-pointers {
+    margin-top: -15px;
+    padding-bottom: 0px;
+    color: #b4afaf;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-indent: 0px;
+  }
+
+  .image-9 {
+    margin-top: -82px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .grid-3-copy {
+    margin-top: -49px;
+    margin-bottom: 35px;
+    -ms-grid-rows: minmax(auto, 487px);
+    grid-template-rows: minmax(auto, 487px);
+  }
+
+  .main-grid-copy {
+    -ms-grid-rows: minmax(580px, 0.25fr);
+    grid-template-rows: minmax(580px, 0.25fr);
+    border-radius: 0px;
+  }
+
+  .grid-3-copy-copy {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    -ms-grid-columns: 1fr 0.75fr;
+    grid-template-columns: 1fr 0.75fr;
+    -ms-grid-rows: minmax(auto, 468px);
+    grid-template-rows: minmax(auto, 468px);
+  }
+
+  .image-11 {
+    width: 90%;
+  }
+
+  .text-span-2 {
+    font-size: 20px;
   }
 }
 
