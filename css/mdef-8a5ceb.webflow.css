@@ -341,7 +341,7 @@ h3 {
   border: 1px dashed transparent;
   background-color: transparent;
   font-family: Poppins, sans-serif;
-  color: #858585;
+  color: #858383;
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
@@ -596,6 +596,7 @@ h3 {
   margin-top: -6px;
   font-family: Poppins, sans-serif;
   color: #4b4949;
+  font-size: 16px;
 }
 
 .grid-2 {
@@ -761,6 +762,70 @@ h3 {
   grid-template-rows: minmax(auto, 390px) auto;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.image-12 {
+  max-height: 900px;
+}
+
+.video {
+  height: 100px;
+  max-height: 100px;
+}
+
+.grid-4 {
+  grid-auto-flow: row;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(62px, 2.75fr);
+  grid-template-rows: minmax(62px, 2.75fr);
+}
+
+.image-12-copy {
+  max-height: 10%;
+  max-width: 60%;
+}
+
+.text-span-5 {
+  color: #dadada;
+}
+
+.text-span-6 {
+  color: #dbd5d5;
+}
+
+.grid-4-copy {
+  grid-auto-flow: row;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: minmax(62px, 2.75fr);
+  grid-template-rows: minmax(62px, 2.75fr);
+}
+
+.image-12-copy {
+  max-height: 900px;
+  max-width: 58%;
+}
+
+.grid-4-copy {
+  grid-auto-flow: row;
+  grid-row-gap: 0px;
+  grid-template-areas: ". Area";
+  -ms-grid-columns: 0.75fr;
+  grid-template-columns: 0.75fr;
+  -ms-grid-rows: minmax(62px, 2.75fr);
+  grid-template-rows: minmax(62px, 2.75fr);
+}
+
+.grid-4-copy-copy {
+  grid-auto-flow: row;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: minmax(62px, 2.75fr);
+  grid-template-rows: minmax(62px, 2.75fr);
 }
 
 @media screen and (min-width: 1920px) {
@@ -1070,5 +1135,16 @@ h3 {
 #w-node-da1cb8c6-3635-8783-f3b3-086cb198cfc4-4ff0be4a {
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+#w-node-_78ca56fe-6145-dccf-fecb-31bd4129f8d6-50ca953b {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.grid-4-copy>#w-node-_78ca56fe-6145-dccf-fecb-31bd4129f8d6-50ca953b {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
 }
 
