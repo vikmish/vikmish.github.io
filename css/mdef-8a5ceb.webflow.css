@@ -618,6 +618,7 @@ h3 {
   font-family: Poppins, sans-serif;
   color: #4b4949;
   font-size: 16px;
+  text-align: left;
 }
 
 .grid-2 {
@@ -1562,6 +1563,36 @@ h3 {
   grid-template-rows: auto;
 }
 
+.term-annotation-copy-copy-copy {
+  margin-top: 50px;
+  margin-bottom: -25px;
+  margin-left: 0px;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.quote-by-copy {
+  margin-top: -6px;
+  font-family: Poppins, sans-serif;
+  color: #4b4949;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.quote-by-copy {
+  margin-top: -38px;
+  font-family: Poppins, sans-serif;
+  color: #4b4949;
+  font-size: 16px;
+  text-align: left;
+}
+
 @media screen and (min-width: 1920px) {
   .head {
     border-top-style: none;
@@ -2290,6 +2321,14 @@ h3 {
   .text-in-grid {
     margin-top: 25px;
     font-size: 15px;
+  }
+
+  .quote-by-copy {
+    margin-top: 1px;
+  }
+
+  .quote-by-copy {
+    margin-top: 1px;
   }
 }
 
