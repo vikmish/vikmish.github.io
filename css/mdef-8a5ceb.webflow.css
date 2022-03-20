@@ -1593,6 +1593,22 @@ h3 {
   text-align: left;
 }
 
+.bibliography {
+  display: block;
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 @media screen and (min-width: 1920px) {
   .head {
     border-top-style: none;
@@ -2329,6 +2345,11 @@ h3 {
 
   .quote-by-copy {
     margin-top: 1px;
+  }
+
+  .bibliography {
+    margin-top: 25px;
+    font-size: 15px;
   }
 }
 
