@@ -608,7 +608,7 @@ h3 {
   font-family: Poppins, sans-serif;
   color: #200000;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 25px;
   font-weight: 600;
   letter-spacing: 0.3px;
 }
@@ -1962,6 +1962,123 @@ h3 {
   height: 100%;
 }
 
+.grid-29-copy {
+  margin-top: 30px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-27-copy-copy {
+  margin-top: -270px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.project-page-body-text-copy-copy {
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.project-page-body-text-copy-copy {
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.project-page-body-text-copy-copy {
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.project-page-body-text-copy-copy {
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.pointers {
+  display: block;
+  margin: 35px 0px;
+  border: 1px dashed transparent;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.text-span-10 {
+  color: #000;
+}
+
+.video-6 {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #a1a1a1;
+}
+
+.image-338 {
+  width: 120%;
+  height: 90%;
+}
+
+.paragraph-2-copy {
+  margin: -5px 0px 20px;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1920px) {
   .head {
     border-top-style: none;
@@ -2761,6 +2878,42 @@ h3 {
     letter-spacing: 0.3px;
     text-indent: 0px;
   }
+
+  .grid-27-copy-copy {
+    margin-top: -330px;
+  }
+
+  .project-page-body-text-copy-copy {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+
+  .project-page-body-text-copy-copy {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+
+  .project-page-body-text-copy-copy {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+
+  .project-page-body-text-copy-copy {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+
+  .pointers {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  .paragraph-2-copy {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2908,6 +3061,16 @@ h3 {
   .grid-27-copy {
     margin-top: -164px;
   }
+
+  .grid-27-copy-copy {
+    margin-top: -164px;
+  }
+
+  .paragraph-2-copy {
+    margin-right: 0px;
+    font-size: 10px;
+    line-height: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3016,6 +3179,10 @@ h3 {
   }
 
   .grid-27-copy {
+    margin-top: -111px;
+  }
+
+  .grid-27-copy-copy {
     margin-top: -111px;
   }
 }
@@ -3191,6 +3358,10 @@ h3 {
   .quotation-text-copy {
     margin-right: 2px;
   }
+
+  .grid-27-copy-copy {
+    margin-top: -49px;
+  }
 }
 
 #w-node-_4194adda-6b7f-a4d6-cd8d-307c2dd53faa-0605b23f {
@@ -3274,6 +3445,10 @@ h3 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: Area;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .grid-2>#w-node-_78ca56fe-6145-dccf-fecb-31bd4129f8d6-50ca953b {
